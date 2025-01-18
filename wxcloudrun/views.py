@@ -5,8 +5,6 @@ from flask import jsonify, render_template, request
 from run import app
 
 from wxcloudrun.reply import reply
-from wxcloudrun.response import make_succ_empty_response, make_succ_response, make_err_response
-
 
 
 
